@@ -52,6 +52,7 @@ const updateDOM = (moveOne, moveTwo, outcome) => {
   const outcomeEl = document.createElement("p");
   outcomeEl.classList.add("outcome");
   outcomeEl.setAttribute("id", "outcome");
+  outcomeEl.innerText = outcome;
   document.body.appendChild(outcomeEl);
 };
 
